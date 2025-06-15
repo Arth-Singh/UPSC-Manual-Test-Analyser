@@ -1,9 +1,9 @@
 <?php
 // Manual Test Analysis Platform - Database Configuration
 $db_host = "localhost";
-$db_username = "u834811746_ArthSingh";
-$db_password = "24@AndheriBandra";
-$db_name = "u834811746_upsc_test_db";
+$db_username = "fill";
+$db_password = "fill";
+$db_name = "fill";
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name;charset=utf8mb4", $db_username, $db_password);
